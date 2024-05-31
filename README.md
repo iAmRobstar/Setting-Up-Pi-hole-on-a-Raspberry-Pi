@@ -10,21 +10,23 @@ The objective of this project is to enhance network security and privacy by impl
 - Implementing measures to protect against malware and phishing by blocking malicious domains and enhancing privacy through ad blocking.
 - Navigating and using Pi-hole's web-based dashboard for monitoring network activity, managing block lists, and customizing DNS configurations.
 - Planning, executing, and documenting a technical project from start to finish, including setting objectives, configuring systems, and evaluating outcomes.
-- Troubleshooting network and system issues, resolving configuration problems, and optimizing performan
+- Troubleshooting network and system issues, resolving configuration problems, and optimizing performance
 
 
 ### Tools Used
 - A small, affordable computer used to host the Pi-hole software and serve as a dedicated DNS server for the network.
 - A network-wide ad blocker that operates as a DNS sinkhole, blocking advertisements and tracking domains.
-- The operating system installed on the Raspberry Pi, providing a platform to run Pi-hole and other necessary software.
+- The operating system installed on the Raspberry Pi, provides a platform to run Pi-hole and other necessary software.
 - Used for installing software, updating packages, and configuring network settings on the Raspberry Pi.
 - Configured to direct DNS traffic through the Raspberry Pi running Pi-hole, ensuring network-wide ad blocking.
 - Accessing the Pi-hole admin interface for managing settings, viewing logs, and monitoring DNS queries.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-
+- Prepare Your Raspberry Pi with a power supply, SD card (at least 8GB), keyboard, mouse, and monitor.
+- Download Raspberry Pi OS <a href="https://www.raspberrypi.com/software/">HERE</a>. Then install Raspberry Pi OS on your SD card. Follow the directions on the website to install the OS.
+- Time to update and upgrade the apps on Raspberry Pi. Open the terminal and type:
+- sudo apt update && sudo apt upgrade -y
+- This will update and upgrade all the apps
+- Now it's time to set a static IP address, so Pi-hole can have the same IP without it changing.
+![Screenshot 2024-05-30 192749](https://github.com/iAmRobstar/Setting-Up-Pi-hole-on-a-Raspberry-Pi/assets/171294322/42406c48-6d86-45c7-ba3b-b8ea20537557)
 
